@@ -1,14 +1,15 @@
 modLoader="javafml"
 loaderVersion="[4,)"
-license="Not specified"
+license="GNU General Public License version 3 (GPLv3)"
 
 [[mods]]
 modId="flesh_and_volition"
-version="1.0.0"
+version="0.0.1"
 displayName="Flesh And Volition"
 displayURL="https://mcreator.net"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
-authors="MCreator"
+authors="0pt1mist"
+displayTest="IGNORE_SERVER_VERSION"
 
 # Start of user code block mod configuration
 # End of user code block mod configuration
@@ -32,6 +33,12 @@ authors="MCreator"
     side="BOTH"
 
 
+[[dependencies.flesh_and_volition]]
+    modId="jei"
+    type="optional"
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
 
 
 # Start of user code block dependencies configuration

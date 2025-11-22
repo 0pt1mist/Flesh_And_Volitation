@@ -79,16 +79,19 @@
   "workspaceSettings": {
     "modid": "flesh_and_volition",
     "modName": "Flesh And Volition",
-    "version": "1.0.0",
-    "author": "MCreator",
+    "version": "0.0.1",
+    "author": "0pt1mist",
     "websiteURL": "https://mcreator.net",
-    "license": "Not specified",
-    "serverSideOnly": false,
+    "license": "GNU General Public License version 3 (GPLv3)",
+    "serverSideOnly": true,
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
-    "mcreatorDependencies": [],
+    "mcreatorDependencies": [
+      "jei"
+    ],
     "currentGenerator": "neoforge-1.21.8",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.fleshandvolition"
   },
   "mcreatorVersion": 202500345720
